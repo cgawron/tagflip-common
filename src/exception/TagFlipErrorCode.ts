@@ -1,0 +1,10 @@
+
+const enum TagFlipErrorCode {
+    ANNOTATION_SET_NAME_ALREADY_TAKEN=1000,
+    ANNOTATION_NAME_ALREADY_TAKEN=2000,
+
+    CORPUS_DOCUMENT_SAME_CONTENT_FOUND = 3000
+}
+
+export default TagFlipErrorCode;
+
