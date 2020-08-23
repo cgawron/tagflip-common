@@ -1,10 +1,11 @@
 {
-  "name": "tagflip-common",
-  "version": "1.0.0",
+  "name": "@fhswf/tagflip-common",
+  "version": "1.0.1",
   "description": "Shared files for TagFlip-Projects.",
+  "private": false,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "Timo Neuhaus",
   "license": "MIT",
