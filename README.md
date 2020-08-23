@@ -1,3 +1,5 @@
+![release](https://github.com/fhswf/tagflip-common/workflows/release/badge.svg)
+
 # Tagflip 
 
 [Tagflip](https://jupiter.fh-swf.de/tagflip) is an online tagging tool similar to [BRAT](https://brat.nlplab.org/) or [WebAnno](https://webanno.github.io/webanno/).
