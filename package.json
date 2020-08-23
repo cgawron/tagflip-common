@@ -1,6 +1,6 @@
 {
   "name": "@fhswf/tagflip-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared files for TagFlip-Projects.",
   "private": false,
   "main": "index.js",
@@ -8,6 +8,21 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "Timo Neuhaus",
+  "contributors": [
+    {
+      "name": "Jakub Kuklok"
+    },
+    {
+      "name": "Timo Neuhaus"
+    },
+    {
+      "name": "Max Kuhmichel"
+    },
+    {
+      "name": "Christian Gawron",
+      "email": "gawron.christian@fh-swf.de"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
