@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/fhswf/tagflip-common/compare/v1.1.0...v1.1.1) (2020-08-25)
+
+
+### Bug Fixes
+
+* changed filters and added exports to index.d.ts ([2791e47](https://github.com/fhswf/tagflip-common/commit/2791e474c4f2adb709cb849e38839edba21c952e))
+
 # [1.1.0](https://github.com/fhswf/tagflip-common/compare/v1.0.2...v1.1.0) (2020-08-24)
 
 
