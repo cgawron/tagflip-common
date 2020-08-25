@@ -6,6 +6,9 @@ import TagAttributes from './src/model/TagAttributes'
 import TagFlipError from './src/exception/TagFlipError'
 import TagFlipErrorCode from './src/exception/TagFlipErrorCode'
 
+import SearchFilter, {Operator} from './src/rest/SearchFilter'
+
+
 export as namespace tagflip;
 
 export {
@@ -15,6 +18,8 @@ export {
     DocumentAttributes,
     TagAttributes,
     TagFlipError,
-    TagFlipErrorCode
+    TagFlipErrorCode,
+    SearchFilter,
+    Operator
 }
 

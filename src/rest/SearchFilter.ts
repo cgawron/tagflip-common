@@ -2,8 +2,8 @@
  * This enum contains supported SearchFilter operators.
  */
 const enum Operator {
-    LIKE = "LIKE", // case sensitive LIKE
-    ILIKE = "ILIKE" // case insensitive LIKE
+    STARTS_WITH, // LIKE 'x%'
+    SUBSTRING // LIKE '%x%'
 }
 export {Operator};
 
