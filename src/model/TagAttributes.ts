@@ -1,15 +1,17 @@
 
 export default interface TagAttributes {
 
-    tagId?: number
+    tagId?: number;
+
+    annotationId: number;
+
+    documentId: number;
+
+    annotationTaskId: number;
 
     startIndex: number;
 
     endIndex: number;
-
-    documentId: number;
-
-    annotationId: number;
 
     createdAt?: Date
 
