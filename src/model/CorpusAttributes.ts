@@ -13,10 +13,6 @@ export default interface CorpusAttributes {
     /** textual description of the corpus */
     description: string;
 
-    // annotationSets: AnnotationSet[];
-
-    // documents: Document[];
-
     /** Date of creation */
     createdAt: Date
 

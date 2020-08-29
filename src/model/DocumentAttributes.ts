@@ -3,17 +3,13 @@ export default interface DocumentAttributes {
 
     documentId: number
 
+    corpusId: number;
+
     filename: string;
 
     documentHash: string;
 
     content?: string;
-
-    // tags: Tag[];
-
-    corpusId: number;
-
-    // corpus!: Corpus;
 
     createdAt?: Date
 
