@@ -1,7 +1,9 @@
 /**
  * Attributes of a Corpus.
- * A *Corpus* is a collection of annotated documents. 
+ * A *Corpus* is a collection of annotated documents.
  */
+import {AnnotationSetAttributes} from "../../index";
+
 export default interface CorpusAttributes {
 
     /** uniquely identifies a corpus */
@@ -13,9 +15,8 @@ export default interface CorpusAttributes {
     /** textual description of the corpus */
     description: string;
 
-    // annotationSets: AnnotationSet[];
-
-    // documents: Document[];
+    /** annotation sets which are assigned to the corpus **/
+    annotationSets: AnnotationSetAttributes[]
 
     /** Date of creation */
     createdAt: Date

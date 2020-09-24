@@ -1,7 +1,10 @@
+import {AnnotationTaskDocumentAttributes} from "../../index";
 
 export default interface DocumentAttributes {
 
     documentId: number
+
+    corpusId: number;
 
     filename: string;
 
@@ -9,11 +12,7 @@ export default interface DocumentAttributes {
 
     content?: string;
 
-    // tags: Tag[];
-
-    corpusId: number;
-
-    // corpus!: Corpus;
+    annotationTaskDocuments?: AnnotationTaskDocumentAttributes[]
 
     createdAt?: Date
 
