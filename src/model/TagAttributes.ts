@@ -7,6 +7,8 @@ export default interface TagAttributes {
 
     documentId: number;
 
+    annotationTaskId: number;
+
     startIndex: number;
 
     endIndex: number;

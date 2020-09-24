@@ -1,3 +1,5 @@
+import {DocumentAttributes} from "../../index";
+
 const enum DocumentAnnotationState {
     open = "open",
     inprogress = "inprogress",
@@ -29,5 +31,8 @@ export default interface AnnotationTaskDocumentAttributes {
 
     /** Date of the last update */
     updatedAt: Date
+
+    /** related document **/
+    document: DocumentAttributes
 
 }

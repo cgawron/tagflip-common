@@ -1,3 +1,4 @@
+import {AnnotationTaskDocumentAttributes} from "../../index";
 
 export default interface DocumentAttributes {
 
@@ -10,6 +11,8 @@ export default interface DocumentAttributes {
     documentHash: string;
 
     content?: string;
+
+    annotationTaskDocuments?: AnnotationTaskDocumentAttributes[]
 
     createdAt?: Date
 
